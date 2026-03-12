@@ -7,3 +7,4 @@ theme = "hugo-theme-relearn"
     mermaid = false
     search = false
     disableInlineCopyToClipBoard = true
+    editURL = "https://github.com/networkop/k8s-networking-guide/tree/master/content/${FilePath}"
