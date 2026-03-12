@@ -8,3 +8,20 @@ theme = "hugo-theme-relearn"
     search = false
     disableInlineCopyToClipBoard = true
     editURL = "https://github.com/networkop/k8s-networking-guide/tree/master/content/${FilePath}"
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-github'></i> Github repo"
+identifier = "ds"
+url = "https://github.com/networkop/k8s-networking-guide"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-flask'></i> Lab repo"
+identifier = "labs"
+url = "https://github.com/networkop/k8s-guide-labs"
+weight = 20
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-bullhorn'></i> Credits"
+url = "/credits"
+weight = 30
