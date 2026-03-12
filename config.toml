@@ -1,35 +1,9 @@
 baseURL = "http://www.tkng.io/"
 languageCode = "en-us"
 title = "The Kubernetes Networking Guide"
-theme = "hugo-theme-learn"
-
-[outputs]
-home = [ "HTML", "RSS", "JSON"]
-
+theme = "hugo-theme-relearn"
 
 [params]
-    description = "The Kubernetes Networking Guide"
-    showVisitedLinks = false
-    images = ["images/k8s-guide-logo.png"]
-    disableLanguageSwitchingButton = true
-    disableMermaid = true
-    editURL = "https://github.com/networkop/k8s-networking-guide/tree/master/content/"
+    mermaid = false
+    search = false
     disableInlineCopyToClipBoard = true
-
-
-[[menu.shortcuts]] 
-name = "<i class='fab fa-github'></i> Github repo"
-identifier = "ds"
-url = "https://github.com/networkop/k8s-networking-guide"
-weight = 10
-
-[[menu.shortcuts]] 
-name = "<i class='fas fa-flask'></i> Lab repo"
-identifier = "labs"
-url = "https://github.com/networkop/k8s-guide-labs"
-weight = 20
-
-[[menu.shortcuts]]
-name = "<i class='fas fa-bullhorn'></i> Credits"
-url = "/credits"
-weight = 30

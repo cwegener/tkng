@@ -13,13 +13,9 @@ This is not a generic Kubernetes learning resource. The assumption is that the r
 {{% /notice %}}
 
 
-
 ## Structure
 
 The guide is split into multiple parts which can be studied mostly independently, however they all work together to provide a complete end-to-end cluster network abstractions.
-
-{{% children description="true" %}}
-{{% /children  %}}
 
 {{% notice info %}}
 **Why this structure?** -- To explain Kubernetes from a network-centric view in a language understandable to people with a traditional network engineering background. This structure is also based on how [#sig-network](https://github.com/kubernetes/community/tree/master/sig-network) is organised into interest groups.
