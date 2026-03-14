@@ -5,10 +5,15 @@ theme = "hugo-theme-relearn"
 
 [params]
     mermaid = false
-    search = true
     disableInlineCopyToClipBoard = true
     editURL = "https://github.com/networkop/k8s-networking-guide/tree/master/content/${FilePath}"
-    themeVariant = [ "auto", "learn" ]
+    themeVariant = [ "auto", "relearn-light", "relearn-dark", "learn" ]
+    [params.search]
+        disable = false
+        [params.search.index]
+            disable = true
+        [params.search.page]
+            disable = true
 
 [[menu.shortcuts]]
 name = "<i class='fab fa-github'></i> Github repo"
