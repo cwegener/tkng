@@ -5,7 +5,12 @@ theme = "hugo-theme-relearn"
 
 [params]
     mermaid = false
-    search = false
+  [params.search]
+    disable = false
+    [params.search.index]
+      disable = true
+    [params.search.page]
+      disable = true
     disableInlineCopyToClipBoard = true
     editURL = "https://github.com/networkop/k8s-networking-guide/tree/master/content/${FilePath}"
 
